@@ -5,6 +5,23 @@ My work focuses on breaking the paradigm of statistical induction in Artificial 
 
 ---
 
+## ⚙️ Noetic Machine — Computational Physics Toolbox
+
+A reproducible computational environment for testing field-theoretic structures. Given a candidate model (ansatz, Lagrangian, symmetry-breaking pattern) and measured anchoring data, it returns a verdict — existence, spectrum, quantisation, regime — with documented invariants, frozen protocols, and SHA-256 hashed artefacts.
+
+| Repository | Description | Status |
+|---|---|---|
+| [**`noetic-machine`**](https://github.com/PORTEMANN/noetic-machine) | SU(2) Georgi–Glashow banc — 5 predictions confirmed (BPS calibration, Bohr spectrum, Dirac charge, flux tube, phase diagram) | **Public, v1.0** |
+
+**Key results:**
+- 🎯 **P0:** BPS mass calibration — C(ρ=1) = 1.3098 (literature 1.24–1.31)
+- 🎯 **P1:** Bound-state spectrum — Coulomb pure to 10⁻⁴, a₀ = 137 l.u.
+- 🎯 **P2:** Dirac charge quantisation — e·g = 2π exact, n = 1
+- 🎯 **P3:** Nucleus–ring bridge — flux tube confinement emergent
+- 🎯 **P4:** Phase diagram — 2 regimes (gauge-core / Higgs-core), ρ* ≈ 0.75
+
+---
+
 ## 🔬 K3-NOETIC — Physics from Spectral Geometry
 
 A research programme constructing falsifiable physical predictions from non-commutative spectral triples. Four theorems proved, a new arithmetic law established, and numerical benchmarks validated on the Gross–Pitaevskii banc.
