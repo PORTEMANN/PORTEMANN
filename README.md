@@ -12,7 +12,7 @@ A reproducible computational environment for testing field-theoretic structures.
 | Repository | Description | Status |
 |---|---|---|
 | [**`noetic-machine`**](https://github.com/PORTEMANN/noetic-machine) | SU(2) Georgi–Glashow solver — 5 predictions confirmed (BPS calibration, Bohr spectrum, Dirac charge, flux tube, phase diagram) | **Public, v1.0** |
-| [**`noetic-applications`**](https://github.com/PORTEMANN/noetic-applications) | Case studies on experimental data: isotope shifts, EMC effect, PREX–CREX neutron-skin puzzle | **Public** |
+| [**`noetic-applications`**](https://github.com/PORTEMANN/noetic-applications) | 14 case studies on experimental data (P7-P20): atomic, nuclear, particle, condensed-matter, molecular | **Public, v1.0** |
 
 **Core predictions (P0–P4):**
 - 🎯 **P0:** BPS mass calibration — C(ρ=1) = 1.3098 (literature 1.24–1.31)
@@ -21,10 +21,21 @@ A reproducible computational environment for testing field-theoretic structures.
 - 🎯 **P3:** Nucleus–ring bridge — flux tube confinement emergent
 - 🎯 **P4:** Phase diagram — 2 regimes (gauge-core / Higgs-core), ρ* ≈ 0.75
 
-**Applications (P7–P9):**
+**Applications (P7–P20) — 17 successes, 3 partials, 0 falsifications:**
 - ✅ **P7:** Isotope shifts in Cl — non-perturbative exact; perturbation theory fails by 18× (electronic) to 10⁷ (muonic saturation)
 - ✅ **P8:** EMC effect — SRC preferred over mean-field by form of modification; matches DIS correlation, saturation, and isospin dependence
 - ⚠️ **P9:** PREX–CREX neutron-skin puzzle — good magnitude, wrong fine/thick switching; boundary located (discrete shell model fails continuous surface density)
+- ✅ **P10:** ANU bridge / periodic-table identity cards — N/18 points to dominant isotopes; core hierarchy validated (88 elements)
+- ⚠️ **P11:** Valley of stability — form captured (trough, beta-line); absolute scale approximate (RMS 0.25 MeV)
+- ✅ **P12:** Chemistry / Hückel valence — octet, 4n+2 aromaticity, Jahn-Teller from degeneracy
+- ✅ **P13:** Stability as form of potential — Geiger-Nuttall slope 1.60 vs 1.57; Regge slope 0.884 vs 0.9 GeV⁻²
+- ✅ **P14:** Atomic identity cards H→U — electron boundary at Z=12; muon saturated everywhere
+- ✅ **P15:** Hadron spectrum — Regge universal slope + charmonium Cornell spacings within 1%
+- ⚠️ **P16:** Unified decay mode map — 18/24 correct; α and β⁺ perfect; boundary cases escape
+- ✅ **P17:** Aharonov–Bohm — periodicity Φ₀=h/e; gap closure at ½-flux; persistent current
+- ✅ **P18:** Topological states — Chern (1,−2,1); SSH protected zero-modes
+- ✅ **P19:** Diffuse surface bound — failure P9/P11 becomes measured bound: a ≈ 0.28 fm required
+- ✅ **P20:** H₂⁺ molecular frontier — exact LCAO; R_eq=2.18 a₀; frontier located (multi-body beyond)
 
 ---
 
@@ -36,7 +47,7 @@ A research programme constructing falsifiable physical predictions from non-comm
 |---|---|---|
 | [**`spectral-triple-minimality`**](https://github.com/PORTEMANN/spectral-triple-minimality) | Article foundations — 4 theorems (dimension, k-bound, margin-3, non-uniqueness) + KO-6 arithmetic law | arXiv-ready, v1.0 tagged |
 | [**`ko6-spectral-solver`**](https://github.com/PORTEMANN/ko6-spectral-solver) | Spectral solver NUE — Strang splitting, benchmarks B1–B3 (Taylor-Green, KdV, Ising 2D) | Public, CI green |
-| **`k3-noetic-hors-programme`** *(private)* | Exploratory channel — E-series (nucleation, polarity, gyrotropic coupling) | Active research |
+| **`gauge-non-abelian`** *(private)* | Non-abelian gauge model — Georgi–Glashow SU(2)+Higgs functional C(ρ), Bogomolny bound, Dirac theorem | Active research |
 
 **Key results:**
 - 🧮 **Theorem T1:** dim H_F ≥ 2R+1 (exact, saturated) — Standard Model emerges at R=3, dim=7
