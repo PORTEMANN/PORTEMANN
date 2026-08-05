@@ -11,9 +11,9 @@ A reproducible computational environment for testing field-theoretic structures.
 
 | Repository | Description | Status |
 |---|---|---|
-| [**`noetic-machine`**](https://github.com/PORTEMANN/noetic-machine) | SU(2) Georgi–Glashow solver — 5 predictions confirmed (BPS calibration, Bohr spectrum, Dirac charge, flux tube, phase diagram) | **Public, v1.0** |
-| [**`noetic-machine-complete`**](https://github.com/PORTEMANN/noetic-machine-complete) | Complete archive — all P0–P31 artefacts (34 scripts, 45 JSON, 31 figures, 45 notes, SHASUMS) | **Public** |
-| [**`noetic-applications`**](https://github.com/PORTEMANN/noetic-applications) | 32 case studies on experimental data (P7–P31): atomic, nuclear, particle, condensed-matter, molecular, quantum chemistry | **Public, v2.0** |
+| [**`noetic-machine`**](https://github.com/PORTEMANN/noetic-machine) | **Cœur** — banc fondateur SU(2) Georgi–Glashow, 5 predictions confirmed (BPS calibration, Bohr spectrum, Dirac charge, flux tube, phase diagram) | **Public, v1.0** |
+| [**`noetic-machine-complete`**](https://github.com/PORTEMANN/noetic-machine-complete) | **Archive canonique** — all P0–P31 artefacts (34 scripts, 45 JSON, 31 figures, 45 notes, SHASUMS). Source de vérité reproductibilité | **Public, v1.0** |
+| [**`noetic-applications`**](https://github.com/PORTEMANN/noetic-applications) | **Vitrine** — 32 case studies on experimental data (P7–P31): atomic, nuclear, particle, condensed-matter, molecular, quantum chemistry | **Public, v1.0** |
 
 **Core predictions (P0–P4):**
 - 🎯 **P0:** BPS mass calibration — C(ρ=1) = 1.3098 (literature 1.24–1.31)
@@ -36,11 +36,11 @@ A reproducible computational environment for testing field-theoretic structures.
 - ✅ **P17:** Aharonov–Bohm — periodicity Φ₀=h/e; gap closure at ½-flux; persistent current
 - ✅ **P18:** Topological states — Chern (1,−2,1); SSH protected zero-modes
 - ✅ **P19:** Diffuse surface bound — failure P9/P11 becomes measured bound: a ≈ 0.28 fm required
-- ✅ **P20:** H₂⁺ molecular frontier — exact LCAO; R_eq=2.18 a₀; frontier located (multi-body beyond)
+- ✅ **P20:** H₂⁺ molecular frontier — exact LCAO; R_eq=2.353 a₀; frontier located (multi-body beyond)
 - ✅ **P21:** Bond polarity — χ=(IE+EA)/2 lever; 13/14 directions correct; Spearman 0.99; zero parameter
 - ⚠️ **P22:** Double-beta decay — pairing mechanism derived; 5/6 criteria; ²⁷⁶Ge suppression escapes
 - ✅ **P23:** Nuclear magnetic moments — Schmidt lines; signs 12/12; within 10% for single-particle
-- ✅ **P24:** Fractional quantum Hall — Jain sequence ν=p/(2p±1); 6/6 criteria
+- ✅ **P24:** Fractional quantum Hall — Jain sequence ν=n/(2pn±1); 6/6 criteria
 - ✅ **P25:** Topological insulators — 2D/3D Z₂ invariant; 6/6 criteria
 - ⚠️ **P26:** Surface diffusivity — a≈0.28 fm confirmed across 5 nuclei; sharp-core overpredicts radii
 - ✅ **P27:** Two-electron correlation — He energy 2%, ionization 10%; in-out recovery 45%
@@ -88,4 +88,4 @@ A "Gray-Box" solver capable of mapping complex non-Markovian dynamics with only 
 
 ## 📬 Contact
 
-For institutional evaluation, technology transfer, or licensing inquiries: [contact@portemann.eu](mailto:contact@portemann.eu)
+For institutional evaluation, technology transfer, or licensing inquiries: [patrice@portemann.eu](mailto:patrice@portemann.eu)
