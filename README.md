@@ -12,6 +12,7 @@ A reproducible computational environment for testing field-theoretic structures.
 | Repository | Description | Status |
 |---|---|---|
 | [**`noetic-machine`**](https://github.com/PORTEMANN/noetic-machine) | SU(2) Georgi–Glashow solver — 5 predictions confirmed (BPS calibration, Bohr spectrum, Dirac charge, flux tube, phase diagram) | **Public, v1.0** |
+| [**`noetic-machine-complete`**](https://github.com/PORTEMANN/noetic-machine-complete) | Complete archive — all P0–P31 artefacts (34 scripts, 45 JSON, 31 figures, 45 notes, SHASUMS) | **Public** |
 | [**`noetic-applications`**](https://github.com/PORTEMANN/noetic-applications) | 32 case studies on experimental data (P7–P31): atomic, nuclear, particle, condensed-matter, molecular, quantum chemistry | **Public, v2.0** |
 
 **Core predictions (P0–P4):**
