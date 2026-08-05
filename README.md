@@ -12,7 +12,7 @@ A reproducible computational environment for testing field-theoretic structures.
 | Repository | Description | Status |
 |---|---|---|
 | [**`noetic-machine`**](https://github.com/PORTEMANN/noetic-machine) | SU(2) Georgi–Glashow solver — 5 predictions confirmed (BPS calibration, Bohr spectrum, Dirac charge, flux tube, phase diagram) | **Public, v1.0** |
-| [**`noetic-applications`**](https://github.com/PORTEMANN/noetic-applications) | 14 case studies on experimental data (P7-P20): atomic, nuclear, particle, condensed-matter, molecular | **Public, v1.0** |
+| [**`noetic-applications`**](https://github.com/PORTEMANN/noetic-applications) | 32 case studies on experimental data (P7–P31): atomic, nuclear, particle, condensed-matter, molecular, quantum chemistry | **Public, v2.0** |
 
 **Core predictions (P0–P4):**
 - 🎯 **P0:** BPS mass calibration — C(ρ=1) = 1.3098 (literature 1.24–1.31)
@@ -21,7 +21,7 @@ A reproducible computational environment for testing field-theoretic structures.
 - 🎯 **P3:** Nucleus–ring bridge — flux tube confinement emergent
 - 🎯 **P4:** Phase diagram — 2 regimes (gauge-core / Higgs-core), ρ* ≈ 0.75
 
-**Applications (P7–P20) — 17 successes, 3 partials, 0 falsifications:**
+**Applications (P7–P31) — 24 successes, 7 partials, 0 falsifications:**
 - ✅ **P7:** Isotope shifts in Cl — non-perturbative exact; perturbation theory fails by 18× (electronic) to 10⁷ (muonic saturation)
 - ✅ **P8:** EMC effect — SRC preferred over mean-field by form of modification; matches DIS correlation, saturation, and isospin dependence
 - ⚠️ **P9:** PREX–CREX neutron-skin puzzle — good magnitude, wrong fine/thick switching; boundary located (discrete shell model fails continuous surface density)
@@ -36,6 +36,17 @@ A reproducible computational environment for testing field-theoretic structures.
 - ✅ **P18:** Topological states — Chern (1,−2,1); SSH protected zero-modes
 - ✅ **P19:** Diffuse surface bound — failure P9/P11 becomes measured bound: a ≈ 0.28 fm required
 - ✅ **P20:** H₂⁺ molecular frontier — exact LCAO; R_eq=2.18 a₀; frontier located (multi-body beyond)
+- ✅ **P21:** Bond polarity — χ=(IE+EA)/2 lever; 13/14 directions correct; Spearman 0.99; zero parameter
+- ⚠️ **P22:** Double-beta decay — pairing mechanism derived; 5/6 criteria; ²⁷⁶Ge suppression escapes
+- ✅ **P23:** Nuclear magnetic moments — Schmidt lines; signs 12/12; within 10% for single-particle
+- ✅ **P24:** Fractional quantum Hall — Jain sequence ν=p/(2p±1); 6/6 criteria
+- ✅ **P25:** Topological insulators — 2D/3D Z₂ invariant; 6/6 criteria
+- ⚠️ **P26:** Surface diffusivity — a≈0.28 fm confirmed across 5 nuclei; sharp-core overpredicts radii
+- ✅ **P27:** Two-electron correlation — He energy 2%, ionization 10%; in-out recovery 45%
+- ✅ **P28:** Unification — surface + correlation structural link; κ_opt discriminates
+- ✅ **P29:** Isovector calibration — κ_opt≈0; discriminating success 5/6
+- ⚠️ **P30:** Kato cusp — cusp ratio 1.9 vs 2.0; correlated tail approximate
+- ⚠️ **P31:** r₁₂ frontier — explicit r₁₂ declared constitutive for He beyond 2%
 
 ---
 
