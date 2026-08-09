@@ -11,7 +11,6 @@ A reproducible computational environment for testing field-theoretic structures.
 
 | Repository | Description | Status |
 |---|---|---|
-| [**`noetic-machine-I`**](https://github.com/PORTEMANN/noetic-machine-I) | **Machine I (figée)** — triplet spectral D_F ; 6 prédictions scellées (P34, P-NU, P-NUC, P-SAVEURS, E11, E14) ; série des paradoxes + série E ; point de bifurcation | **Public, figée** |
 | [**`noetic-machine`**](https://github.com/PORTEMANN/noetic-machine) | **Cœur** — banc fondateur SU(2) Georgi–Glashow, 5 predictions confirmed (BPS calibration, Bohr spectrum, Dirac charge, flux tube, phase diagram) | **Public, v1.0** |
 | [**`noetic-machine-complete`**](https://github.com/PORTEMANN/noetic-machine-complete) | **Archive canonique** — all P0–P31 artefacts (34 scripts, 45 JSON, 31 figures, 45 notes, SHASUMS). Source de vérité reproductibilité | **Public, v1.0** |
 | [**`noetic-applications`**](https://github.com/PORTEMANN/noetic-applications) | **Vitrine** — 32 case studies on experimental data (P7–P31): atomic, nuclear, particle, condensed-matter, molecular, quantum chemistry | **Public, v1.0** |
@@ -49,29 +48,6 @@ A reproducible computational environment for testing field-theoretic structures.
 - ✅ **P29:** Isovector calibration — κ_opt≈0; discriminating success 5/6
 - ⚠️ **P30:** Kato cusp — cusp ratio 1.9 vs 2.0; correlated tail approximate
 - ⚠️ **P31:** r₁₂ frontier — explicit r₁₂ declared constitutive for He beyond 2%
-
----
-
-## 🧊 Machine Noétique — Version I (figée, point de bifurcation)
-
-La [**`noetic-machine-I`**](https://github.com/PORTEMANN/noetic-machine-I) archive la **Machine I** complète au point de bifurcation, avant l'ouverture de la version II. Axiome unique : le **triplet spectral** `D_F = build_DF(T_h)` (7 sites, spectre exact `{0, ±√2, ±2√2, ±3√2}`, chiralité Γ). Discipline : C12.1 (gel avant calcul), B3-FAIL, verdict binaire fin 2027.
-
-**Six prédictions scellées :**
-
-| Prédiction | Contenu | Type | Statut nature |
-|---|---|---|---|
-| **P34** | ME(⁶⁰Ca) = 18,631 MeV (±1,74) | valeur | en attente FRIB fin 2027 |
-| **P-NU** | hiérarchie neutrino normale + stérile découplé | ordre + absence | JUNO / KATRIN-TRISTAN |
-| **P-NUC** | ⁶²Ca dernier lié ; Majorana structurel | classification | FRIB ; LEGEND/nEXO/CUPID |
-| **P-SAVEURS** | hiérarchie PMNS (θ₁₃ = 0 à l'ordre zéro) | structure | JUNO/DUNE/Hyper-K |
-| **E11** | tension neutron τ_bouteille < τ_faisceau | signe | confirmé en signe (4σ) |
-| **E14** | **pas de détection directe** du sombre | **absence** (no-go) | XENON/LZ/PandaX (en cours) |
-
-E14 est la première prédiction de *type absence* : la machine prédit qu'on ne trouvera rien, et l'absence accumulée confirme.
-
-**Trois impasses consignées :** E6 (énergie noire), E7 (tension de Hubble), Re_N (fractalité non calculable) — la même frontière : toute observable dépendant de l'expansion, de la distance ou du régime est fermée.
-
-**Loi de portée :** la machine donne l'*invariant d'échelle* (structure : hiérarchies, classifications, signes, ratios entiers, théorèmes d'absence), jamais le *dépendant d'échelle* (nominal, amplitudes). Puissante intra-secteur, faible inter-secteurs — ce qui motive la **version II** (pont structurel inter-secteurs, en chantier sous les mêmes règles).
 
 ---
 
