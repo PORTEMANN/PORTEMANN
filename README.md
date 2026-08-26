@@ -3,6 +3,8 @@ Independent Researcher in Applied Mathematics & Physics
 
 My work focuses on breaking the paradigm of statistical induction in Artificial Intelligence — and deriving physical structure from geometric first principles.
 
+**Web ecosystem:** [histoire-des-sciences.eu](https://histoire-des-sciences.eu) · [index.portemann.eu](https://index.portemann.eu) · [portemann.eu](https://portemann.eu) · [noeticindustries.com](https://noeticindustries.com)
+
 ---
 
 ## ⚙️ Noetic Machine — Computational Physics Toolbox
@@ -14,6 +16,7 @@ A reproducible computational environment for testing field-theoretic structures.
 | [**`noetic-machine`**](https://github.com/PORTEMANN/noetic-machine) | **Cœur** — banc fondateur SU(2) Georgi–Glashow, 5 predictions confirmed (BPS calibration, Bohr spectrum, Dirac charge, flux tube, phase diagram) | **Public, v1.0** |
 | [**`noetic-machine-complete`**](https://github.com/PORTEMANN/noetic-machine-complete) | **Archive canonique** — all P0–P31 artefacts (34 scripts, 45 JSON, 31 figures, 45 notes, SHASUMS). Source de vérité reproductibilité | **Public, v1.0** |
 | [**`noetic-applications`**](https://github.com/PORTEMANN/noetic-applications) | **Vitrine** — 32 case studies on experimental data (P7–P31): atomic, nuclear, particle, condensed-matter, molecular, quantum chemistry | **Public, v1.0** |
+| [**`noetic-ash`**](https://github.com/PORTEMANN/noetic-ash) | **Acquisition** — Analyseur spectral à géométrie harmonique : extraction d'invariants topologiques en temps réel, O(1) par fenêtre, sans apprentissage | **Public, v1.0** |
 
 **Core predictions (P0–P4):**
 - 🎯 **P0:** BPS mass calibration — C(ρ=1) = 1.3098 (literature 1.24–1.31)
@@ -59,6 +62,7 @@ A research programme constructing falsifiable physical predictions from non-comm
 |---|---|---|
 | [**`spectral-triple-minimality`**](https://github.com/PORTEMANN/spectral-triple-minimality) | Article foundations — 4 theorems (dimension, k-bound, margin-3, non-uniqueness) + KO-6 arithmetic law | arXiv-ready, v1.0 tagged |
 | [**`ko6-spectral-solver`**](https://github.com/PORTEMANN/ko6-spectral-solver) | Spectral solver NUE — Strang splitting, benchmarks B1–B3 (Taylor-Green, KdV, Ising 2D) | Public, CI green |
+| [**`koilon-scale-e8`**](https://github.com/PORTEMANN/koilon-scale-e8) | Échelle Koilon-E8 — mapping du vide hydrodynamique à la géométrie E8/Lie, pont vers la matière noire/énergie noire sans nouvelles particules | Public, v1.0 |
 | **`gauge-non-abelian`** *(private)* | Non-abelian gauge model — Georgi–Glashow SU(2)+Higgs functional C(ρ), Bogomolny bound, Dirac theorem | Active research |
 
 **Key results:**
