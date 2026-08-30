@@ -7,50 +7,30 @@ My work focuses on breaking the paradigm of statistical induction in Artificial 
 
 ---
 
-## ⚙️ Noetic Machine — Computational Physics Toolbox
+## ⚙️ Machine Noétique — l'opérateur de verdict
 
-A reproducible computational environment for testing field-theoretic structures. Given a candidate model (ansatz, Lagrangian, symmetry-breaking pattern) and measured anchoring data, it returns a verdict — existence, spectrum, quantisation, regime — with documented invariants, frozen protocols, and SHA-256 hashed artefacts.
+A reproducible computational environment for testing field-theoretic structures. Given a candidate model (ansatz, Lagrangian, symmetry-breaking pattern) and measured anchoring data, it returns a verdict — existence, spectrum, quantisation, regime — with documented invariants, frozen protocols, and SHA-256 hashed artefacts. Zéro paramètre ajusté · levier discriminant · échecs publiés (B3-FAIL).
 
 | Repository | Description | Status |
 |---|---|---|
 | [**`noetic-machine`**](https://github.com/PORTEMANN/noetic-machine) | **Cœur** — banc fondateur SU(2) Georgi–Glashow, 5 predictions confirmed (BPS calibration, Bohr spectrum, Dirac charge, flux tube, phase diagram) | **Public, v1.0** |
-| [**`noetic-machine-complete`**](https://github.com/PORTEMANN/noetic-machine-complete) | **Archive canonique** — all P0–P31 artefacts (34 scripts, 45 JSON, 31 figures, 45 notes, SHASUMS). Source de vérité reproductibilité | **Public, v1.0** |
+| [**`noetic-machine-complete`**](https://github.com/PORTEMANN/noetic-machine-complete) | **Archive canonique** — corpus P0–P45 + série A (méthode) + méta-chantiers M1/M1b : ~360 fichiers figés SHA-256, registre des frontières (18 entrées mesurées, falsifieurs exécutables), release de données Allen Cell Types | **Public, actif** |
 | [**`noetic-applications`**](https://github.com/PORTEMANN/noetic-applications) | **Vitrine** — 32 case studies on experimental data (P7–P31): atomic, nuclear, particle, condensed-matter, molecular, quantum chemistry | **Public, v1.0** |
-| [**`noetic-ash`**](https://github.com/PORTEMANN/noetic-ash) | **Acquisition** — Analyseur spectral à géométrie harmonique : extraction d'invariants topologiques en temps réel, O(1) par fenêtre, sans apprentissage | **Public, v1.0** |
+| [**`noetic-ash`**](https://github.com/PORTEMANN/noetic-ash) | **Acquisition** — Analyseur spectral à géométrie harmonique : invariants topologiques O(1) par fenêtre, sans apprentissage, embarqué STM32/ESP32 ; v1.1.0 audité par la machine elle-même | **Public, v1.1.0** |
+| [**`noetic-ash-corpus`**](https://github.com/PORTEMANN/noetic-ash-corpus) | **Mémoire falsifiable** — registre de signatures et verdicts ASH (statuts T > C > E > H, falsifieurs obligatoires) | **Public, actif** |
 
-**Core predictions (P0–P4):**
-- 🎯 **P0:** BPS mass calibration — C(ρ=1) = 1.3098 (literature 1.24–1.31)
-- 🎯 **P1:** Bound-state spectrum — Coulomb pure to 10⁻⁴, a₀ = 137 l.u.
-- 🎯 **P2:** Dirac charge quantisation — e·g = 2π exact, n = 1
-- 🎯 **P3:** Nucleus–ring bridge — flux tube confinement emergent
-- 🎯 **P4:** Phase diagram — 2 regimes (gauge-core / Higgs-core), ρ* ≈ 0.75
+**Fondations (P0–P4) :** BPS calibration C(ρ=1) = 1.3098 · Coulomb pur à 10⁻⁴ · quantification de Dirac e·g = 2π exacte · tube de flux émergent · diagramme de phases à 2 régimes.
 
-**Applications (P7–P31) — 24 successes, 7 partials, 0 falsifications:**
-- ✅ **P7:** Isotope shifts in Cl — non-perturbative exact; perturbation theory fails by 18× (electronic) to 10⁷ (muonic saturation)
-- ✅ **P8:** EMC effect — SRC preferred over mean-field by form of modification; matches DIS correlation, saturation, and isospin dependence
-- ⚠️ **P9:** PREX–CREX neutron-skin puzzle — good magnitude, wrong fine/thick switching; boundary located (discrete shell model fails continuous surface density)
-- ✅ **P10:** ANU bridge / periodic-table identity cards — N/18 points to dominant isotopes; core hierarchy validated (88 elements)
-- ⚠️ **P11:** Valley of stability — form captured (trough, beta-line); absolute scale approximate (RMS 0.25 MeV)
-- ✅ **P12:** Chemistry / Hückel valence — octet, 4n+2 aromaticity, Jahn-Teller from degeneracy
-- ✅ **P13:** Stability as form of potential — Geiger-Nuttall slope 1.60 vs 1.57; Regge slope 0.884 vs 0.9 GeV⁻²
-- ✅ **P14:** Atomic identity cards H→U — electron boundary at Z=12; muon saturated everywhere
-- ✅ **P15:** Hadron spectrum — Regge universal slope + charmonium Cornell spacings within 1%
-- ⚠️ **P16:** Unified decay mode map — 18/24 correct; α and β⁺ perfect; boundary cases escape
-- ✅ **P17:** Aharonov–Bohm — periodicity Φ₀=h/e; gap closure at ½-flux; persistent current
-- ✅ **P18:** Topological states — Chern (1,−2,1); SSH protected zero-modes
-- ✅ **P19:** Diffuse surface bound — failure P9/P11 becomes measured bound: a ≈ 0.28 fm required
-- ✅ **P20:** H₂⁺ molecular frontier — exact LCAO; R_eq=2.353 a₀; frontier located (multi-body beyond)
-- ✅ **P21:** Bond polarity — χ=(IE+EA)/2 lever; 13/14 directions correct; Spearman 0.99; zero parameter
-- ⚠️ **P22:** Double-beta decay — pairing mechanism derived; 5/6 criteria; ²⁷⁶Ge suppression escapes
-- ✅ **P23:** Nuclear magnetic moments — Schmidt lines; signs 12/12; within 10% for single-particle
-- ✅ **P24:** Fractional quantum Hall — Jain sequence ν=n/(2pn±1); 6/6 criteria
-- ✅ **P25:** Topological insulators — 2D/3D Z₂ invariant; 6/6 criteria
-- ⚠️ **P26:** Surface diffusivity — a≈0.28 fm confirmed across 5 nuclei; sharp-core overpredicts radii
-- ✅ **P27:** Two-electron correlation — He energy 2%, ionization 10%; in-out recovery 45%
-- ✅ **P28:** Unification — surface + correlation structural link; κ_opt discriminates
-- ✅ **P29:** Isovector calibration — κ_opt≈0; discriminating success 5/6
-- ⚠️ **P30:** Kato cusp — cusp ratio 1.9 vs 2.0; correlated tail approximate
-- ⚠️ **P31:** r₁₂ frontier — explicit r₁₂ declared constitutive for He beyond 2%
+**Applications (P7–P31) :** 24 succès / 9 partiels-négatifs — déplacements isotopiques, effet EMC, Hückel, Geiger-Nuttall, Regge, Hall fractionnaire (Jain), isolants topologiques, moments de Schmidt, cusp de Kato…
+
+**Suite du corpus (août 2026) — la machine s'éprouve elle-même :**
+- 🧠 **P34–P38 :** le verdict porté aux architectures neuronales — biais constitutif, σ réfutée comme modèle biologique (B3-FAIL), profondeur constitutive dès que la tâche itère, position constitutive de l'attention (8/262144 sans, 262144/262144 avec), neurone fractionnaire éprouvé comme mémoire t^(−α)
+- ⚛️ **P39–P42 :** frontière r₁₂ **fermée** (couple zéro paramètre en tout Z) · Z_max = **180** recomputé exact (α = 2⁻¹⁰ gelé) · neurones corticaux réels (Allen) : type I dominant, HH non représentatif · pont arithmétique 120 ↔ E₈ exécuté (quiver de McKay calculé)
+- 🔧 **Série A (méthode) :** batterie de perturbation (le verdict devient un couple (V, Σ)), moteur de leviers, tamis de Jastrow, **registre des frontières** (18 entrées, 7 fermées / 5 ouvertes / 6 partielles) — dont F9 : réparation forensique du corpus (p31 corrigé, verdict historique 3/5 → 5/5)
+- 📉 **M1 / M1b (méta) :** le postulat central du corpus éprouvé sur 23 chantiers — **réfuté avec inversion** (robustesse Kolmogorov-gzip, Spearman 0,980) ; ce qui s'effondre à r₁₂, c'est le taux de succès des confrontations externes, pas le ratio informationnel
+- 🎛️ **P43 : l'instrument sous le verdict** — l'ASH auditée (7/7) : O(1)/fenêtre confirmé, ReN réfuté comme invariant physique (pente −0,996) → errata publiés, noetic-ash v1.1.0
+- 🧬 **P44 (B3-FAIL) :** EEG d'imagerie motrice réelle (BCICIV-2a) — les règles zéro paramètre sont réfutées en essai unique ; l'illettrisme BCI est mesuré, la voie de fermeture déclarée
+- 📊 **P45 :** les benchmarks tiennent sans ReN — classification officielle par invariants normalisés (10/10 paires, invariants d'amplitude à 1e-9)
 
 ---
 
@@ -62,7 +42,7 @@ A research programme constructing falsifiable physical predictions from non-comm
 |---|---|---|
 | [**`spectral-triple-minimality`**](https://github.com/PORTEMANN/spectral-triple-minimality) | Article foundations — 4 theorems (dimension, k-bound, margin-3, non-uniqueness) + KO-6 arithmetic law | arXiv-ready, v1.0 tagged |
 | [**`ko6-spectral-solver`**](https://github.com/PORTEMANN/ko6-spectral-solver) | Spectral solver NUE — Strang splitting, benchmarks B1–B3 (Taylor-Green, KdV, Ising 2D) | Public, CI green |
-| [**`koilon-scale-e8`**](https://github.com/PORTEMANN/koilon-scale-e8) | Échelle Koilon-E8 — mapping du vide hydrodynamique à la géométrie E8/Lie, pont vers la matière noire/énergie noire sans nouvelles particules | Public, v1.0 |
+| [**`koilon-scale-e8`**](https://github.com/PORTEMANN/koilon-scale-e8) | Échelle Koilon-E8 — mapping du vide hydrodynamique à la géométrie E8/Lie ; confronté aux masses mesurées (P40 : Z_max = 180 exact, P-FISSION réfutée sur JEFF-3.1.1) et au pont 120 ↔ E₈ (P42) | Public, v1.0 |
 | **`gauge-non-abelian`** *(private)* | Non-abelian gauge model — Georgi–Glashow SU(2)+Higgs functional C(ρ), Bogomolny bound, Dirac theorem | Active research |
 
 **Key results:**
@@ -87,6 +67,8 @@ My engine replaces standard gradient descent with:
 
 ### The Result
 A "Gray-Box" solver capable of mapping complex non-Markovian dynamics with only 28 parameters, achieving comparable AUC to 10,000+ parameter Graph Neural Networks.
+
+*Relève dans le corpus : la dynamique fractionnaire est désormais exécutable et mesurée — P37 (neurone fractionnaire : mémoire t^(−α) éprouvée, spike réfuté), P43 (audit de l'instrument). Le script du modèle 84,1 % AUC reste à publier (registre F10, ouvert).*
 
 ---
 
