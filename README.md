@@ -5,6 +5,8 @@ My work focuses on breaking the paradigm of statistical induction in Artificial 
 
 **Web ecosystem:** [histoire-des-sciences.eu](https://histoire-des-sciences.eu) · [index.portemann.eu](https://index.portemann.eu) · [portemann.eu](https://portemann.eu) · [noeticindustries.com](https://noeticindustries.com)
 
+> **Gouvernance du corpus (sept. 2026)** — Les dépôts sont désormais régulés par conventions datées, page d'axiomes gelée et registre de campagnes avec boucle de régulation post-campagne (`CONVENTIONS.md` / `AXIOMES.md` / `CAMPAIGNS.md` sur noetic-machine-complete). Un erratum daté corrige le théorème T3 de spectral-triple-minimality (voir ci-dessous). Règle permanente : **un mot = un objet**.
+
 ---
 
 ## ⚙️ Machine Noétique — l'opérateur de verdict
@@ -14,7 +16,7 @@ A reproducible computational environment for testing field-theoretic structures.
 | Repository | Description | Status |
 |---|---|---|
 | [**`noetic-machine`**](https://github.com/PORTEMANN/noetic-machine) | **Cœur** — banc fondateur SU(2) Georgi–Glashow, 5 predictions confirmed (BPS calibration, Bohr spectrum, Dirac charge, flux tube, phase diagram) | **Public, v1.0** |
-| [**`noetic-machine-complete`**](https://github.com/PORTEMANN/noetic-machine-complete) | **Archive canonique** — corpus P0–P45 + série A (méthode) + méta-chantiers M1/M1b : ~360 fichiers figés SHA-256, registre des frontières (18 entrées mesurées, falsifieurs exécutables), release de données Allen Cell Types | **Public, actif** |
+| [**`noetic-machine-complete`**](https://github.com/PORTEMANN/noetic-machine-complete) | **Archive canonique** — corpus P0–P45 + série A (méthode) + méta-chantiers M1/M1b : ~360 fichiers figés SHA-256, registre des frontières (20 entrées mesurées, falsifieurs exécutables), gouvernance CONVENTIONS/AXIOMES/CAMPAIGNS, release de données Allen Cell Types | **Public, actif** |
 | [**`noetic-applications`**](https://github.com/PORTEMANN/noetic-applications) | **Vitrine** — 32 case studies on experimental data (P7–P31): atomic, nuclear, particle, condensed-matter, molecular, quantum chemistry | **Public, v1.0** |
 | [**`noetic-ash`**](https://github.com/PORTEMANN/noetic-ash) | **Acquisition** — Analyseur spectral à géométrie harmonique : invariants topologiques O(1) par fenêtre, sans apprentissage, embarqué STM32/ESP32 ; v1.1.0 audité par la machine elle-même | **Public, v1.1.0** |
 | [**`noetic-ash-corpus`**](https://github.com/PORTEMANN/noetic-ash-corpus) | **Mémoire falsifiable** — registre de signatures et verdicts ASH (statuts T > C > E > H, falsifieurs obligatoires) | **Public, actif** |
@@ -26,7 +28,7 @@ A reproducible computational environment for testing field-theoretic structures.
 **Suite du corpus (août 2026) — la machine s'éprouve elle-même :**
 - 🧠 **P34–P38 :** le verdict porté aux architectures neuronales — biais constitutif, σ réfutée comme modèle biologique (B3-FAIL), profondeur constitutive dès que la tâche itère, position constitutive de l'attention (8/262144 sans, 262144/262144 avec), neurone fractionnaire éprouvé comme mémoire t^(−α)
 - ⚛️ **P39–P42 :** frontière r₁₂ **fermée** (couple zéro paramètre en tout Z) · Z_max = **180** recomputé exact (α = 2⁻¹⁰ gelé) · neurones corticaux réels (Allen) : type I dominant, HH non représentatif · pont arithmétique 120 ↔ E₈ exécuté (quiver de McKay calculé)
-- 🔧 **Série A (méthode) :** batterie de perturbation (le verdict devient un couple (V, Σ)), moteur de leviers, tamis de Jastrow, **registre des frontières** (18 entrées, 7 fermées / 5 ouvertes / 6 partielles) — dont F9 : réparation forensique du corpus (p31 corrigé, verdict historique 3/5 → 5/5)
+- 🔧 **Série A (méthode) :** batterie de perturbation (le verdict devient un couple (V, Σ)), moteur de leviers, tamis de Jastrow, **registre des frontières** (20 entrées, 10 fermées / 4 ouvertes / 6 partielles) — dont F9 : réparation forensique du corpus (p31 corrigé, verdict historique 3/5 → 5/5)
 - 📉 **M1 / M1b (méta) :** le postulat central du corpus éprouvé sur 23 chantiers — **réfuté avec inversion** (robustesse Kolmogorov-gzip, Spearman 0,980) ; ce qui s'effondre à r₁₂, c'est le taux de succès des confrontations externes, pas le ratio informationnel
 - 🎛️ **P43 : l'instrument sous le verdict** — l'ASH auditée (7/7) : O(1)/fenêtre confirmé, ReN réfuté comme invariant physique (pente −0,996) → errata publiés, noetic-ash v1.1.0
 - 🧬 **P44 (B3-FAIL) :** EEG d'imagerie motrice réelle (BCICIV-2a) — les règles zéro paramètre sont réfutées en essai unique ; l'illettrisme BCI est mesuré, la voie de fermeture déclarée
@@ -40,17 +42,18 @@ A research programme constructing falsifiable physical predictions from non-comm
 
 | Repository | Description | Status |
 |---|---|---|
-| [**`spectral-triple-minimality`**](https://github.com/PORTEMANN/spectral-triple-minimality) | Article foundations — 4 theorems (dimension, k-bound, margin-3, non-uniqueness) + KO-6 arithmetic law | arXiv-ready, v1.0 tagged |
+| [**`spectral-triple-minimality`**](https://github.com/PORTEMANN/spectral-triple-minimality) | Article foundations — 4 theorems (dimension, k-bound, margin-3, non-uniqueness) + KO-6 arithmetic law | v1.0 tagged — ⚠️ **erratum 2026-09-06** (T3 réfuté comme publié, soumission arXiv suspendue) |
 | [**`ko6-spectral-solver`**](https://github.com/PORTEMANN/ko6-spectral-solver) | Spectral solver NUE — Strang splitting, benchmarks B1–B3 (Taylor-Green, KdV, Ising 2D) | Public, CI green |
 | [**`koilon-scale-e8`**](https://github.com/PORTEMANN/koilon-scale-e8) | Échelle Koilon-E8 — mapping du vide hydrodynamique à la géométrie E8/Lie ; confronté aux masses mesurées (P40 : Z_max = 180 exact, P-FISSION réfutée sur JEFF-3.1.1) et au pont 120 ↔ E₈ (P42) | Public, v1.0 |
 | **`gauge-non-abelian`** *(private)* | Non-abelian gauge model — Georgi–Glashow SU(2)+Higgs functional C(ρ), Bogomolny bound, Dirac theorem | Active research |
 
 **Key results:**
-- 🧮 **Theorem T1:** dim H_F ≥ 2R+1 (exact, saturated) — Standard Model emerges at R=3, dim=7
-- 🧮 **Theorem T2:** k ≥ 2 (no field without at least 2 vertices)
-- 🧮 **Theorem T3:** max(m_ij) ≥ 3 for 3 pairs + chiral zero (proved via odd-margin lemma, 622,560 cases, 0 violations)
-- 🧮 **Theorem T4:** Non-uniqueness of the minimal class at dim 7 (33,148 solutions)
+- 🧮 **Theorem T1:** dim H_F ≥ 2R+1 — ⚠️ non évaluable en l'état : R n'a pas de définition machine (définition proposée : rang de P₊ D P₋ — registre des conventions)
+- 🧮 **Theorem T2:** (R=3, chiralité nulle) dim H_F ≥ 7, k ≥ 2, max m_ij ≥ 3 — ⚠️ convention-dépendant : sous la table KO-6 « usuelle » (Jγ = −γJ), le lemme de parité exclut toute dimension impaire
+- ❌ **Theorem T3:** « 63,160 certified realizations » — **réfuté comme publié** (B3-FAIL, audit A3 de noetic-machine-complete : plafond codé en dur, axiomes proxys, certification vide ; relance : 0 solution). Voir `ERRATUM.md` du dépôt
+- 🧮 **Theorem T4:** loi de multiplicité M_min(R) = sqf(R) (R impair), 1 (R pair) — fait d'arithmétique des multiplicités
 - 📐 **KO-6 Arithmetic Law:** At m ≤ 2, all margins are even or odd perfect squares; ranks 5 and 7 forbidden; 9 = 3² is the largest exact bound
+- ✅ **Étalon opérationnel :** triplet minimal C4 vérifié matriciellement (H_F = ℂ⁴, γ = diag(1,1,−1,−1) — A3b, 4/4) et fenêtre F4 (60/256 en k=2, dim=5) sur noetic-machine-complete
 
 ---
 
