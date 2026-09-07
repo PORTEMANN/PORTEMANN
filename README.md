@@ -15,6 +15,7 @@ A reproducible computational environment for testing field-theoretic structures.
 
 | Repository | Description | Status |
 |---|---|---|
+| [**`noetic-mdu`**](https://github.com/PORTEMANN/noetic-mdu) | **Entrée** — MDU (Machine Dynamique Unifiée) : préfiltre/classifieur en amont de l'ASH — décomposition spectrale 7 plans, automate spectral, solveur d'invariants bornés (I₁/I₂/I₃, ReN), 4 verdicts locaux rejouables du 07/09/2026 (`src/`, graine figée) | **Public, nouveau (07/09/2026)** |
 | [**`noetic-machine`**](https://github.com/PORTEMANN/noetic-machine) | **Cœur** — banc fondateur SU(2) Georgi–Glashow, 5 predictions confirmed (BPS calibration, Bohr spectrum, Dirac charge, flux tube, phase diagram) | **Public, v1.0** |
 | [**`noetic-machine-complete`**](https://github.com/PORTEMANN/noetic-machine-complete) | **Archive canonique** — corpus P0–P45 + série A (méthode) + méta-chantiers M1/M1b : ~360 fichiers figés SHA-256, registre des frontières (20 entrées mesurées, falsifieurs exécutables), gouvernance CONVENTIONS/AXIOMES/CAMPAIGNS, release de données Allen Cell Types | **Public, actif** |
 | [**`noetic-applications`**](https://github.com/PORTEMANN/noetic-applications) | **Vitrine** — 32 case studies on experimental data (P7–P31): atomic, nuclear, particle, condensed-matter, molecular, quantum chemistry | **Public, v1.0** |
