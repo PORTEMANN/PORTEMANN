@@ -5,8 +5,9 @@ Independent Researcher in Applied Mathematics & Physics
 
 Manifeste gelé avant mesure, tables vintage, unités rationalisées (HL/Gauss/SI),
 tueurs exécutables (I-G1/I-G2), ancre temporelle OpenTimestamps optionnelle.
-Quickstart : deux pesées refaites en 10 minutes (Dirac, H₂⁺). MIT, CI verte,
-aucune dépendance externe hormis `numpy`.
+Quickstart : deux pesées refaites en 10 minutes (Dirac, H₂⁺), le capot
+(tare, chaîne typée, calibre) en 5 de plus. Doctrine : capot, balance,
+justesse, métrologie quantique. MIT, CI verte, `numpy` seule dépendance.
 
 > Un S+ veut dire : l'écart tient dans la tolérance gelée. Il ne veut pas dire
 > que la nature, l'esprit ou l'histoire des idées ont parlé.
@@ -29,7 +30,7 @@ Discipline commune aux deux : zéro paramètre ajusté, levier discriminant,
 
 | Dépôt | Rôle | Statut |
 |---|---|---|
-| [`mvcg`](https://github.com/PORTEMANN/mvcg) | Opérateur de verdict à coût gelé (MÉT-LIB-1.5) | **actif — v0.1.0** |
+| [`mvcg`](https://github.com/PORTEMANN/mvcg) | Opérateur de verdict à coût gelé (MÉT-LIB-1.5) | **actif — v0.2.1** |
 | [`noetic-machine-complete`](https://github.com/PORTEMANN/noetic-machine-complete) | Archive canonique du corpus historique | gelée |
 | `noetic-machine` · `noetic-ash` · `noetic-ash-corpus` · `noetic-applications` · `noetic-mdu` · `spectral-triple-minimality` · `ko6-spectral-solver` · `koilon-scale-e8` | Archives et satellites du corpus historique | gelés |
 
