@@ -13,6 +13,16 @@ justesse, métrologie quantique. MIT, CI verte, `numpy` seule dépendance.
 > que la nature, l'esprit ou l'histoire des idées ont parlé.
 > Voir la note de différenciation du dépôt.
 
+## La machine en un regard
+
+![MVC-G — 42 verdicts par famille](carte-identite.svg)
+
+Chaque case est une pesée du registre public (vert S+ · ambre P · rouge S−),
+groupée par famille — de l'atome au diagramme de Hubble. La carte complète
+(espace θ × δ/θ, les bandes sont la règle de verdict) vit dans le
+[README de mvcg](https://github.com/PORTEMANN/mvcg#la-carte-des-verdicts).
+Carte dérivée du registre, jamais dessinée à la main : régénération = mêmes octets.
+
 ---
 
 ## Archive
