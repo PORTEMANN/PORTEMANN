@@ -9,7 +9,7 @@ Quickstart : deux pesées refaites en 10 minutes (Dirac, H₂⁺), le capot
 (tare, chaîne typée, calibre) en 5 de plus. Doctrine : capot, balance,
 justesse, métrologie quantique. MIT, CI verte, `numpy` seule dépendance.
 
-## La machine en un regard (2026-09-14 — 54 contacts, 12 fibres)
+## La machine en un regard (2026-09-14 — 56 contacts, 12 fibres)
 
 [![Carte des verdicts](preview-carte-verdicts.png)](carte-verdicts.svg)
 
@@ -19,7 +19,7 @@ Chaque pastille est un contact pesé : sa **couleur** est le verdict
 (dimension × espèce — modules de distance, constantes, spectres…).
 Cartes dérivées du registre, jamais dessinées à la main : régénération = mêmes octets.
 
-![MVC-G — 54 verdicts par famille](carte-identite.svg)
+![MVC-G — 56 verdicts par famille](carte-identite.svg)
 
 La carte d'identité groupe les mêmes pesées par famille — de l'atome au
 diagramme de Hubble. L'espace complet (θ × δ/θ, les bandes sont la règle de
