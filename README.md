@@ -9,19 +9,26 @@ Quickstart : deux pesées refaites en 10 minutes (Dirac, H₂⁺), le capot
 (tare, chaîne typée, calibre) en 5 de plus. Doctrine : capot, balance,
 justesse, métrologie quantique. MIT, CI verte, `numpy` seule dépendance.
 
+## La machine en un regard (2026-09-14 — 46 contacts, 12 fibres)
+
+[![Carte des verdicts](preview-carte-verdicts.png)](carte-verdicts.svg)
+
+Chaque pastille est un contact pesé : sa **couleur** est le verdict
+(**S+** vert : l'écart tient dans θ gelé ; **P** ambre : au cheveu ;
+**S−** rouge : l'écart dépasse), sa **position** est le casier
+(dimension × espèce — modules de distance, constantes, spectres…).
+Cartes dérivées du registre, jamais dessinées à la main : régénération = mêmes octets.
+
+![MVC-G — 46 verdicts par famille](carte-identite.svg)
+
+La carte d'identité groupe les mêmes pesées par famille — de l'atome au
+diagramme de Hubble. L'espace complet (θ × δ/θ, les bandes sont la règle de
+verdict) vit dans le
+[README de mvcg](https://github.com/PORTEMANN/mvcg#la-carte-des-verdicts).
+
 > Un S+ veut dire : l'écart tient dans la tolérance gelée. Il ne veut pas dire
 > que la nature, l'esprit ou l'histoire des idées ont parlé.
 > Voir la note de différenciation du dépôt.
-
-## La machine en un regard
-
-![MVC-G — 42 verdicts par famille](carte-identite.svg)
-
-Chaque case est une pesée du registre public (vert S+ · ambre P · rouge S−),
-groupée par famille — de l'atome au diagramme de Hubble. La carte complète
-(espace θ × δ/θ, les bandes sont la règle de verdict) vit dans le
-[README de mvcg](https://github.com/PORTEMANN/mvcg#la-carte-des-verdicts).
-Carte dérivée du registre, jamais dessinée à la main : régénération = mêmes octets.
 
 ---
 
