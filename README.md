@@ -9,7 +9,7 @@ Quickstart : deux pesées refaites en 10 minutes (Dirac, H₂⁺), le capot
 (tare, chaîne typée, calibre) en 5 de plus. Doctrine : capot, balance,
 justesse, métrologie quantique. MIT, CI verte, `numpy` seule dépendance.
 
-## La machine en un regard (2026-09-14 — 74 contacts, 13 fibres)
+## La machine en un regard (2026-09-15 — 83 contacts, 16 fibres)
 
 [![Carte des verdicts](preview-carte-verdicts.png)](carte-verdicts.svg)
 
@@ -19,13 +19,15 @@ Chaque pastille est un contact pesé : sa **couleur** est le verdict
 (dimension × espèce — modules de distance, constantes, spectres…).
 Cartes dérivées du registre, jamais dessinées à la main : régénération = mêmes octets.
 
-Derniers arcs : les quatre P affinés par D-bump (seules les déclarations
-d'incertitude changent, runner et empreinte partagés), le gyrocorpus du
-canal hors-programme transposé en cinq pesées (dont le pont « deux nombres
-liés » tenu au cheveu à 1,20 U), et le corridor croisé — deux tensions
-inter-campagnes chiffrées pour la première fois.
+Derniers arcs : le chantier PRINCIPES — huit pesées d'un corpus théorique
+auto-publié, équations comprises en images transcrites gelées (4 S+/4 S−,
+dont le couplet RG 1-loop / 2-boucles : 654–656 θ, la dette n'était pas
+l'ordre de calcul) ; le complexe g-2 (WP25/WP20, HVP exp-vs-exp, HLbL) ;
+le couplet Lamb historique→moderne (la dette se ferme, S+ à 0,30 θ) ;
+la spectroscopie CO (ab initio, Dunham, isotopologue, Kratzer) ; et le
+corridor croisé — tensions inter-campagnes chiffrées pour la première fois.
 
-![MVC-G — 74 verdicts par famille](carte-identite.svg)
+![MVC-G — 83 verdicts par famille](carte-identite.svg)
 
 La carte d'identité groupe les mêmes pesées par famille — de l'atome au
 diagramme de Hubble. L'espace complet (θ × δ/θ, les bandes sont la règle de
@@ -53,7 +55,7 @@ Discipline commune aux deux : zéro paramètre ajusté, levier discriminant,
 
 | Dépôt | Rôle | Statut |
 |---|---|---|
-| [`mvcg`](https://github.com/PORTEMANN/mvcg) | Opérateur de verdict à coût gelé (MÉT-LIB-1.5) | **actif — v0.2.1** |
+| [`mvcg`](https://github.com/PORTEMANN/mvcg) | Opérateur de verdict à coût gelé (MÉT-LIB-1.5) | **actif — v0.3** |
 | [`noetic-machine-complete`](https://github.com/PORTEMANN/noetic-machine-complete) | Archive canonique du corpus historique | gelée |
 | `noetic-machine` · `noetic-ash` · `noetic-ash-corpus` · `noetic-applications` · `noetic-mdu` · `spectral-triple-minimality` · `ko6-spectral-solver` · `koilon-scale-e8` | Archives et satellites du corpus historique | gelés |
 
