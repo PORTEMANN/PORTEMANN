@@ -9,7 +9,7 @@ Quickstart : deux pesées refaites en 10 minutes (Dirac, H₂⁺), le capot
 (tare, chaîne typée, calibre) en 5 de plus. Doctrine : capot, balance,
 justesse, métrologie quantique. MIT, CI verte, `numpy` seule dépendance.
 
-## La machine en un regard (2026-09-15 — 83 contacts, 16 fibres)
+## La machine en un regard (2026-09-16 — 102 contacts, 17 fibres)
 
 [![Carte des verdicts](preview-carte-verdicts.png)](carte-verdicts.svg)
 
@@ -19,15 +19,16 @@ Chaque pastille est un contact pesé : sa **couleur** est le verdict
 (dimension × espèce — modules de distance, constantes, spectres…).
 Cartes dérivées du registre, jamais dessinées à la main : régénération = mêmes octets.
 
-Derniers arcs : le chantier PRINCIPES — huit pesées d'un corpus théorique
-auto-publié, équations comprises en images transcrites gelées (4 S+/4 S−,
-dont le couplet RG 1-loop / 2-boucles : 654–656 θ, la dette n'était pas
-l'ordre de calcul) ; le complexe g-2 (WP25/WP20, HVP exp-vs-exp, HLbL) ;
-le couplet Lamb historique→moderne (la dette se ferme, S+ à 0,30 θ) ;
-la spectroscopie CO (ab initio, Dunham, isotopologue, Kratzer) ; et le
-corridor croisé — tensions inter-campagnes chiffrées pour la première fois.
+Derniers arcs : le chantier LOI-HARMONIQUE — seize pesées de la loi
+d'échelle du corpus (Koide 9,2e-5 θ, le plus serré du registre ; la gamme
+ANU 1908 en 2^(1/12) ; la prédiction mécanique G11 doublement non tenue
+à 20 022 θ ; le corridor des corrections harmoniques, P à 1,78 θ — les
+grosses déclarations universelles ne tiennent qu'en zone grise une fois
+la table refaite) ; le chantier E44 — paire de Hopf validée, P3 réfutée
+par le corpus lui-même ; le chantier PRINCIPES (RG 1-loop / 2-boucles) ;
+le complexe g-2 (WP25/WP20) ; le couplet Lamb ; la spectroscopie CO.
 
-![MVC-G — 83 verdicts par famille](carte-identite.svg)
+![MVC-G — 102 verdicts par famille](carte-identite.svg)
 
 La carte d'identité groupe les mêmes pesées par famille — de l'atome au
 diagramme de Hubble. L'espace complet (θ × δ/θ, les bandes sont la règle de
