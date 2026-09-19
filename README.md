@@ -9,7 +9,7 @@ Quickstart : deux pesées refaites en 10 minutes (Dirac, H₂⁺), le capot
 (tare, chaîne typée, calibre) en 5 de plus. Doctrine : capot, balance,
 justesse, métrologie quantique. MIT, CI verte, `numpy` seule dépendance.
 
-## La machine en un regard (2026-09-16 — 102 contacts, 17 fibres)
+## La machine en un regard (2026-09-19 — 122 contacts, 18 fibres)
 
 [![Carte des verdicts](preview-carte-verdicts.png)](carte-verdicts.svg)
 
@@ -19,16 +19,19 @@ Chaque pastille est un contact pesé : sa **couleur** est le verdict
 (dimension × espèce — modules de distance, constantes, spectres…).
 Cartes dérivées du registre, jamais dessinées à la main : régénération = mêmes octets.
 
-Derniers arcs : le chantier LOI-HARMONIQUE — seize pesées de la loi
-d'échelle du corpus (Koide 9,2e-5 θ, le plus serré du registre ; la gamme
-ANU 1908 en 2^(1/12) ; la prédiction mécanique G11 doublement non tenue
-à 20 022 θ ; le corridor des corrections harmoniques, P à 1,78 θ — les
-grosses déclarations universelles ne tiennent qu'en zone grise une fois
-la table refaite) ; le chantier E44 — paire de Hopf validée, P3 réfutée
-par le corpus lui-même ; le chantier PRINCIPES (RG 1-loop / 2-boucles) ;
-le complexe g-2 (WP25/WP20) ; le couplet Lamb ; la spectroscopie CO.
+Derniers arcs : le chantier TRANSVERSALE — vingt pesées de la fouille
+transversale du corpus (2026-09-16/18) : **6 S+ tenus, 14 S−, 0 P**. Le
+corpus y est fiable comme transcripteur de la physique standard, fragile
+dès qu'il extrapole — cinq familles de défaillance nommées (dettes
+d'écriture, définitions perdues, datation, modèles contre leurs ancres,
+tares de frontière). Bilan complet :
+[BILAN-TRANSVERSALE](https://github.com/PORTEMANN/mvcg/blob/main/docs/BILAN-TRANSVERSALE.md).
+Avant : LOI-HARMONIQUE (Koide 9,2e-5 θ, le plus serré du registre ;
+gamme ANU 1908 ; G11 à 20 022 θ) ; E44 (paire de Hopf validée, P3
+réfutée) ; PRINCIPES (RG 1-loop / 2-boucles) ; g-2 (WP25/WP20) ; couplet
+Lamb ; spectroscopie CO.
 
-![MVC-G — 102 verdicts par famille](carte-identite.svg)
+![MVC-G — 122 verdicts par famille](carte-identite.svg)
 
 La carte d'identité groupe les mêmes pesées par famille — de l'atome au
 diagramme de Hubble. L'espace complet (θ × δ/θ, les bandes sont la règle de
